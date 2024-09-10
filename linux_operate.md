@@ -9,7 +9,10 @@
 ps -l
 ```
 ![image](https://github.com/user-attachments/assets/24e4afd4-8cef-4e6b-a87a-5a0608ddeb23)
-
+#### 登出Linux
+```
+exit
+```
 #### 使用 systemd 的 Fedora 系統執行關閉系統
 ```
 sudo systemctl poweroff
