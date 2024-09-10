@@ -22,6 +22,7 @@ sudo systemctl halt
 ```
 sudo systemctl reboot
 ```
+```
 sudo shutdown -c
 ```
 
