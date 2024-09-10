@@ -4,6 +4,7 @@
 - [積點系統](https://irs.ctlin.tw/dashboard)
 - 
 ## AGENDA
+### 基本檔案管理
 - 列出正在運行的服務資訊
 ```
 ps -l
