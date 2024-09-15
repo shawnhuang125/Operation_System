@@ -2,75 +2,38 @@
 ## link
 - [外部資源](https://linux.vbird.org/linux_basic_train/rockylinux9/unit01.php)
 - [積點系統](https://irs.ctlin.tw/dashboard)
-- 
+
 ## AGENDA
-### 基本檔案管理
-- 列出正在運行的服務資訊
-```
-ps -l
-```
-![image](https://github.com/user-attachments/assets/24e4afd4-8cef-4e6b-a87a-5a0608ddeb23)
-#### 登出Linux
-```
-exit
-```
-#### 使用 systemd 的 Fedora 系統執行關閉系統
-```
-sudo systemctl poweroff
-```
+### 文件操作：
+- ls： 上市文件和目錄
+- cd： 切換目錄
+- cp：複製檔案或目錄
+- mv：移動或重新命名文件
+- rm：刪除檔案或目錄
+- mkdir：建立目錄
 
-#### 使用其他的方式進行關閉系統
-```
-sudo systemctl halt
-```
-```
-sudo systemctl reboot
-```
-```
-sudo shutdown -c
-```
+### 權限管理：
+- chmod：修改檔案權限
+- chown：更改文件所有者
+- sudo：臨時取得使用者超級權限
 
-#### 關機選項
-```
-shutdown --help
-```
-![image](https://github.com/user-attachments/assets/2d36d052-5b9a-4080-87a8-07359c6fee74)
+### 系統管理：
+- ps：查看運行中的進程
+- top或htop：即時監控系統資源
+- kill： 終止進程
+- df：查看磁碟空間使用情況
+- du：查看目錄或檔案的磁碟佔用情況
 
-#### 控制系統的行為
-- 不同的 Linux 發行版略有不同
-- Run Level（運作等級）
-  - 0: 關機（停止系統）
-  - 1: 單用戶模式（救援模式，沒有網絡）
-  - 2: 多用戶模式（沒有網絡服務，少量進程）
-  - 3: 完整的多用戶模式（文本界面，多用戶，多進程，啟動網絡服務）
-  - 4: 未定義（通常不使用，系統管理員可以自行配置）
-  - 5: 完整的多用戶模式，並啟動圖形界面（常見於桌面系統）
-  - 6: 重啟系統
-- 切換運行級別,使用telinit或init指令切換運行等級。
-  ```
-  sudo init [runlevel]
-  ```
-  - 例如，切換到運行等級3（多用戶模式，無圖形介面）：
-  ```
-  - sudo init 3
-  ```
-  - 切換到運行等級5（多用戶模式，有圖形介面）：
+### 網路管理：
+- ifconfig或ip addr：查看網路介面資訊
+- ping：測試網絡評價性
+- netstat或ss：查看網路連線狀態
 
-  ```
-  sudo init 5
-  ```
-  - 切換到運作等級0（關機模式）：
-  ```
-  sudo init 0
-  ```
+### 服務管理：
+- systemctl：管理服務（啟動、停止、重新啟動服務）
 
-  
-#### 快速鍵指令
-- 表示檔案結束符或輸入結束符
-```
-ctrl+D
-```
-- 發送中斷訊號（SIGINT）給目前正在執行的程序。
-```
-ctrl+C
-```
+### 用戶管理：
+- useradd和userdel：新增或刪除用戶
+- passwd：修改用戶密碼
+- usermod：修改使用者資訊
+
