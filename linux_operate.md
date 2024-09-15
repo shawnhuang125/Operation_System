@@ -26,8 +26,28 @@
 
 ### 網路管理：
 - ifconfig或ip addr：查看網路介面資訊
-- ping：測試網絡評價性
+- ![螢幕擷取畫面 2024-09-15 151359](https://github.com/user-attachments/assets/3cbce61d-8fdf-4c93-82e6-81423322683c)
+- ![螢幕擷取畫面 2024-09-15 152236](https://github.com/user-attachments/assets/a5d6d2de-41b6-407d-900b-b3102ca03861)
+- ![螢幕擷取畫面 2024-09-15 152702](https://github.com/user-attachments/assets/5b12adf9-e0b5-4749-9d5e-1273c00efc50)
+- 查找包含192.168的本地IP
+- ![螢幕擷取畫面 2024-09-15 155112](https://github.com/user-attachments/assets/daee0344-91f3-44f3-87dd-1424cd7b7df4)
+
+- ping：測試網絡連接,與router傳送封包
+- 連不到
+- ![螢幕擷取畫面 2024-09-15 153009](https://github.com/user-attachments/assets/b8c46b87-1910-4315-977f-2c9e97af2354)
+- 連接成功,封包傳送與接收正常
+- ![螢幕擷取畫面 2024-09-15 152934](https://github.com/user-attachments/assets/40d9a229-683b-417b-a8f4-4a512561ece0)
 - netstat或ss：查看網路連線狀態
+  - 監聽TCP協議的連接端口
+  ```
+  netstat -at
+  ```
+  監聽UDP協議的連接端口
+  ```
+  netstat -au
+  ```
+  - ![螢幕擷取畫面 2024-09-15 154900](https://github.com/user-attachments/assets/61f1a340-1467-4e9e-b83a-06682b8f6681)
+
 
 ### 服務管理：
 - systemctl：管理服務（啟動、停止、重新啟動服務）
