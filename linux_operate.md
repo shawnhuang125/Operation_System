@@ -125,9 +125,7 @@
   ```
 ### init是一個用來管理系統的程式
 - 使用最高權限切換運行級別： 使用 init 或 telinit 命令來切換運行級別。例如，切換到運行級別 3（多用戶模式）：
-  - 多用戶模式
-  - 
-  - 
+  - 多用戶模式:關掉機器的圖形化介面,只使用tty1-6進行終端指令輸入,可開啟ssh服務進行遠程造訪。
   ```
   sudo init 3
   ```
@@ -135,6 +133,16 @@
   ```
   sudo telinit 3
   ```
+  - 如何關閉init 3?
+  - 按ctrl+alt+f1-f6輸入指令
+  ```
+  sudo systemctl isolate graphical.target
+  ```
+  - 或
+  ```
+  sudo init 5
+  ```
+  - 或按ctrl+alt+f7
 - 使用最高權限關機（運行級別 0）：
 ```
 sudo init 0
