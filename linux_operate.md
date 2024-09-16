@@ -75,7 +75,75 @@
   -p：顯示使用該連線的進程資訊。
   ```
 ### 服務管理：
-- systemctl：管理服務（啟動、停止、重新啟動服務）
+- 重啟機器
+  - 使用最高權限即時重啟：
+  ```
+  sudo reboot
+  ```
+  - 使用最高權限並使用systemtl工具來重啟
+  ```
+  sudo systemctl reboot
+  ```
+  - 使用最高權限定時重啟（在 10 分鐘後重啟）：
+  ```
+  sudo shutdown -r +10
+  ```
+  - 使用最高權限重啟在指定時間（例如：在晚上 11 點重啟）：
+  ```
+  sudo shutdown -r 23:00
+  ```
+- 關閉機器
+  - 使用最高權限立即關機：
+  ```
+  sudo shutdown now
+  ```
+  - 使用最高權限立即關機：
+  ```
+  sudo poweroff
+  ```
+  - 使用最高權限立即停止cpu運行,但不關閉電源：
+  ```
+  sudo halt
+  ```
+  - 使用最高權限關機（進入運行級別 0）：
+  ```
+  sudo init 0
+  ```
+- 使用systemctl來管理服務
+  ```
+  sudo systemctl status [service]
+  ```
+  - 例如開啟ssh並檢查ssh狀態最後關閉,檢查狀態
+  ```
+  sudo systemctl start ssh
+  ```
+  ```
+  sudo systemctl status ssh
+  ```
+  ```
+  ssh systemctl stop ssh
+  ```
+### init是一個用來管理系統的程式
+- 使用最高權限切換運行級別： 使用 init 或 telinit 命令來切換運行級別。例如，切換到運行級別 3（多用戶模式）：
+  - 多用戶模式
+  - 
+  - 
+  ```
+  sudo init 3
+  ```
+  - 或
+  ```
+  sudo telinit 3
+  ```
+- 使用最高權限關機（運行級別 0）：
+```
+sudo init 0
+```
+- 使用最高權限重啟（運行級別 6）：
+```
+sudo init 6
+```
+### 命令行終端（TTY）模式
 
 ### 用戶管理：
 - useradd和userdel：新增或刪除用戶
