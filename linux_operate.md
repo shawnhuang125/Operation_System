@@ -136,17 +136,18 @@
   ```
   sudo systemctl status [service]
   ```
-  - 例如開啟ssh並檢查ssh狀態最後關閉,檢查狀態
+  - 例如開啟ssh並檢查ssh狀態最後關閉。
   ```
   sudo systemctl start ssh
   ```
   - ![螢幕擷取畫面 2024-09-16 110928](https://github.com/user-attachments/assets/fcab0342-6297-47f5-81f1-616c66941087)
+  - 檢查ssh狀態
 
   ```
   sudo systemctl status ssh
   ```
-
-   - ![螢幕擷取畫面 2024-09-16 110937](https://github.com/user-attachments/assets/0e9c9e22-5ae9-468a-a73a-224c15fcd13f)
+  - ![螢幕擷取畫面 2024-09-16 110937](https://github.com/user-attachments/assets/0e9c9e22-5ae9-468a-a73a-224c15fcd13f)
+  - 關閉ssh服務
   ```
   ssh systemctl stop ssh
   ```
@@ -206,7 +207,7 @@ sudo init 6
 ![螢幕擷取畫面 2024-09-16 113813](https://github.com/user-attachments/assets/e69369d3-b8f0-4fc8-97ba-11a4dfe832b0)
 - **重新開啟圖形介面請調至TTY5**
 - ![螢幕擷取畫面 2024-09-16 113409](https://github.com/user-attachments/assets/e5420b4e-5fa1-4c1f-ad99-b45455b73607)
-- 或輸入以下
+- **或輸入以下**
 ```
 sudo systemctl isolate graphical.target
 ```
@@ -214,15 +215,52 @@ sudo systemctl isolate graphical.target
 - ![螢幕擷取畫面 2024-09-16 113509](https://github.com/user-attachments/assets/bdf5594c-c754-4387-a21f-0afa86834752)
 
 ### 用戶管理：
-
-
 > 應用場景
   系統管理員希望給予某個使用者臨時的管理權限，以便他們可以執行某些管理任務。
   提高伺服器的安全性,防止遭受惡意攻擊
   在企業中不同的部門會有不同的存取權限,可以使用此功能管理使用者訪問權限
   使用SSH連線伺服器時可以管理不同的使用者身分,有異常的可以直接刪除
 
-- useradd和userdel：新增或刪除用戶
+- **useradd和userdel：新增或刪除用戶**
+```
+sudo useradd [name]
+```
+- **這邊是使用"client"作為新增用戶名稱**
+```
+sudo useradd client
+```
+- ![螢幕擷取畫面 2024-09-18 162413](https://github.com/user-attachments/assets/856023dd-0466-4211-9a4a-059c250e9706)
+- **輸入自訂義用戶密碼==>成功添加**
+- ![螢幕擷取畫面 2024-09-18 162525](https://github.com/user-attachments/assets/83028843-ecbd-4342-8223-f728d28c5f66)
+- 建立用戶資料夾
+```
+sudo mkdir /home/client
+```
+- ![螢幕擷取畫面 2024-09-18 163800](https://github.com/user-attachments/assets/ac82e3ad-82b4-46bc-bed2-b0fe77c198d1)
+- 查看目錄是否建立成功
+- **進入/home**
+```
+cd /home
+```
+- 列出位於此目錄下之所有目錄
+```
+ls
+```
+- ![螢幕擷取畫面 2024-09-18 163807](https://github.com/user-attachments/assets/96bb09b6-fb89-4d48-9487-3566fae3ca93)
+- ![螢幕擷取畫面 2024-09-18 163807](https://github.com/user-attachments/assets/dfcd724b-ec85-4a49-8b7e-7b2b197a8214)
+- **賦予"client"操作權限**
+```
+sudo chown cleint:client /home/client
+```
+- **查看權限資訊**
+```
+ls -ld /home/client
+```
+- ![螢幕擷取畫面 2024-09-18 164037](https://github.com/user-attachments/assets/54a3928f-83f8-4455-9d11-f30f124a3bf8)
+- ![image](https://github.com/user-attachments/assets/a1af8de9-c00a-44d7-ad52-796eae2a8550)
+
 - passwd：修改用戶密碼
+
 - usermod：修改使用者資訊
+
 
