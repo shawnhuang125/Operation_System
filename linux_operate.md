@@ -207,12 +207,12 @@ sudo init 6
 ![螢幕擷取畫面 2024-09-16 113813](https://github.com/user-attachments/assets/e69369d3-b8f0-4fc8-97ba-11a4dfe832b0)
 - **重新開啟圖形介面請調至TTY7**
 - 按: Ctrl + Alt + F7
+- ![螢幕擷取畫面 2024-09-16 113509](https://github.com/user-attachments/assets/fc510ef1-6def-4473-bff8-6440ed43bf21)
 - **或輸入以下**
 ```
 sudo systemctl isolate graphical.target
 ```
 - ![螢幕擷取畫面 2024-09-16 113509](https://github.com/user-attachments/assets/fc510ef1-6def-4473-bff8-6440ed43bf21)
-- ![螢幕擷取畫面 2024-09-16 113509](https://github.com/user-attachments/assets/bdf5594c-c754-4387-a21f-0afa86834752)
 
 ### 用戶管理：
 > 應用場景
