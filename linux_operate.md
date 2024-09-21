@@ -205,8 +205,8 @@ sudo init 6
 - ![螢幕擷取畫面 2024-09-16 113752](https://github.com/user-attachments/assets/81cfe090-f727-4633-9a05-d3d6fec028b2)
 - **離開SSH連線**
 ![螢幕擷取畫面 2024-09-16 113813](https://github.com/user-attachments/assets/e69369d3-b8f0-4fc8-97ba-11a4dfe832b0)
-- **重新開啟圖形介面請調至TTY5**
-- ![螢幕擷取畫面 2024-09-16 113409](https://github.com/user-attachments/assets/e5420b4e-5fa1-4c1f-ad99-b45455b73607)
+- **重新開啟圖形介面請調至TTY7**
+- 按: Ctrl + Alt + F7
 - **或輸入以下**
 ```
 sudo systemctl isolate graphical.target
