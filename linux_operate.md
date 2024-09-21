@@ -136,7 +136,6 @@
   ```
   sudo systemctl status [service]
   ```
-  - ![螢幕擷取畫面 2024-09-16 111022](https://github.com/user-attachments/assets/a3adb739-e95e-4291-9f83-a4a704843076)
   - 例如開啟ssh並檢查ssh狀態最後關閉,檢查狀態
   ```
   sudo systemctl start ssh
