@@ -90,7 +90,6 @@
   ```
   - ![螢幕擷取畫面 2024-09-16 101457](https://github.com/user-attachments/assets/f67cf5cf-bb55-430c-ae1d-f58dabb70361)
   - ![螢幕擷取畫面 2024-09-16 101015](https://github.com/user-attachments/assets/c81e7073-1538-4d6d-9bf9-71a10fb59ef4)
-  - 
 
 
   - 使用最高權限定時重啟（在 10 分鐘後重啟）：
