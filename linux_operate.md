@@ -257,7 +257,6 @@ sudo chown cleint:client /home/client
 ls -ld /home/client
 ```
 - ![螢幕擷取畫面 2024-09-18 164037](https://github.com/user-attachments/assets/54a3928f-83f8-4455-9d11-f30f124a3bf8)
-- ![image](https://github.com/user-attachments/assets/a1af8de9-c00a-44d7-ad52-796eae2a8550)
 
 - passwd：修改用戶密碼
 
