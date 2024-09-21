@@ -191,7 +191,7 @@ sudo init 6
 ### 命令行終端（TTY）模式
 - TTY1-TTY6都是終端介面,可以一次開很多個使用
 - TTY7是圖形化介面專用,可以用來切回圖形化介面模式
-## 實戰演練
+## 實戰演練1
 - 描述:root權限使用ssh連線至kali linux,並將kali linux關閉圖形介面
 - **先查看機器本地端IP**
 - ![螢幕擷取畫面 2024-09-16 112855](https://github.com/user-attachments/assets/b5ec86a5-ff25-4673-96aa-2b0c1f7faabf)
