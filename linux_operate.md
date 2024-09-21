@@ -98,14 +98,14 @@
   ```
   - ![螢幕擷取畫面 2024-09-16 101724](https://github.com/user-attachments/assets/ee9f5a53-98f3-4791-bbec-f97374b2398a)
   - ![螢幕擷取畫面 2024-09-16 101914](https://github.com/user-attachments/assets/4c65eb2e-5a8e-444d-91e0-27f1be590601)
-- ![螢幕擷取畫面 2024-09-16 101958](https://github.com/user-attachments/assets/5eb71bfc-e619-41df-b83b-d83a69fe3e18)
+  - ![螢幕擷取畫面 2024-09-16 101958](https://github.com/user-attachments/assets/5eb71bfc-e619-41df-b83b-d83a69fe3e18)
 
   - 使用最高權限重啟在指定時間（例如：在晚上 11 點重啟）：
   ```
   sudo shutdown -r 23:00
   ```
   - ![螢幕擷取畫面 2024-09-16 102151](https://github.com/user-attachments/assets/4f84ea4f-b933-4d98-b3ac-1da19dccf43d)
-- ![螢幕擷取畫面 2024-09-16 102151](https://github.com/user-attachments/assets/977a9a1c-3af7-4585-81c1-cccf0679d723)
+  - ![螢幕擷取畫面 2024-09-16 102151](https://github.com/user-attachments/assets/977a9a1c-3af7-4585-81c1-cccf0679d723)
 
 - 關閉機器
   - 使用最高權限立即關機：
@@ -124,7 +124,7 @@
   sudo halt
   ```
   - ![螢幕擷取畫面 2024-09-16 104709](https://github.com/user-attachments/assets/7b06e54f-3783-4bb8-91b6-a0c1cf63eef7)
-- ![螢幕擷取畫面 2024-09-16 104724](https://github.com/user-attachments/assets/cfb48ebd-b56e-4c2b-b342-c1036374b126)
+  - ![螢幕擷取畫面 2024-09-16 104724](https://github.com/user-attachments/assets/cfb48ebd-b56e-4c2b-b342-c1036374b126)
 
   - 使用最高權限關機（進入運行級別 0）：
   ```
