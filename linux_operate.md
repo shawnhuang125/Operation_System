@@ -113,7 +113,7 @@
   sudo shutdown now
   ```
   - ![螢幕擷取畫面 2024-09-16 102354](https://github.com/user-attachments/assets/7159af13-68f7-4072-aa09-dd29f0f405d3)
-- ![螢幕擷取畫面 2024-09-16 102406](https://github.com/user-attachments/assets/36dd30ec-10a3-443a-86a9-b9c80e7ab094)
+  - ![螢幕擷取畫面 2024-09-16 102406](https://github.com/user-attachments/assets/36dd30ec-10a3-443a-86a9-b9c80e7ab094)
 
   - 使用最高權限立即關機：
   ```
