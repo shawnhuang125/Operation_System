@@ -27,17 +27,26 @@ cd /xxx/xxx/xxx/
 - 
 - mv：移動或重新命名文件
 ```
+sudo mv xxxxx [路徑]
 ```
 - 
 - rm：刪除檔案或目錄
+- 強制刪除目錄
 ```
+sudo rm -rf xxxxx 
 ```
-- 
+- ![螢幕擷取畫面 2024-09-22 122334](https://github.com/user-attachments/assets/73ee57ec-4337-4773-b6f8-80c32f487c09)
+- 刪除檔案
+```
+sudo rm xxxx.xxx
+```
+- ![螢幕擷取畫面 2024-09-22 121940](https://github.com/user-attachments/assets/63af8235-9bc0-4593-bbe6-5d3a496483df)
 - mkdir：建立目錄
 ```
 mkdir xxxxx
 ```
 - ![螢幕擷取畫面 2024-09-22 121123](https://github.com/user-attachments/assets/a15a093d-2d8e-4183-af03-eea1a4a4bc72)
+- 
 ## 實戰演練1
 - 描述:新增一個目錄,在目錄底下新增一個txt檔並移動至上層目錄,最後將txt檔和創建的目錄刪除
 - 在"Documents/"目錄底下**新增名為"document"的目錄**
