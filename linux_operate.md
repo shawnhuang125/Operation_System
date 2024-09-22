@@ -25,11 +25,12 @@ cd /xxx/xxx/xxx/
 ```
 ```
 - 
-- mv：移動或重新命名文件
+- mv：移動文件
 ```
 sudo mv xxxxx [路徑]
 ```
-- 
+- ![螢幕擷取畫面 2024-09-22 121929](https://github.com/user-attachments/assets/a9b7494e-f33a-45a8-a10b-f331d5391f01)
+
 - rm：刪除檔案或目錄
 - 強制刪除目錄
 ```
