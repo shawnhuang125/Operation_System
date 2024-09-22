@@ -51,7 +51,7 @@ mkdir document
 ```
 - ![螢幕擷取畫面 2024-09-22 121443](https://github.com/user-attachments/assets/fe59d00b-160d-42ce-ad10-ccc8fb85ccd2)
 
--**確認"document"已建立完成**
+- **確認"document"已建立完成**
 ```
 ls -a
 ```
