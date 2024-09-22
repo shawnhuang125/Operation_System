@@ -20,7 +20,6 @@ ls -al
 cd /xxx/xxx/xxx/
 ```
 - ![螢幕擷取畫面 2024-09-22 121004](https://github.com/user-attachments/assets/360f23f1-0cf0-4e4f-8603-6cd852089c9a)
-- 
 - cp：複製檔案或目錄
 ```
 ```
