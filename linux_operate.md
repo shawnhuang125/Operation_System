@@ -259,7 +259,7 @@ ls -ld /home/client
 - ![螢幕擷取畫面 2024-09-18 164037](https://github.com/user-attachments/assets/54a3928f-83f8-4455-9d11-f30f124a3bf8)
 
 - passwd：修改用戶密碼
-
 - usermod：修改使用者資訊
 
-
+## 實戰演練2
+- 描述:使用client身分SSH連線至kali linux並成功在目錄底下創建檔案並刪除檔案最後刪除"client"用戶,並刪除日誌檔
