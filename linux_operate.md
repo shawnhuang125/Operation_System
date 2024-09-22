@@ -13,8 +13,7 @@ ls -a
 ```
 ls -al
 ```
-![螢幕擷取畫面 2024-09-22 120904](https://github.com/user-attachments/assets/bf63c3e9-3b3a-4c32-b26c-203797dfe93a)
-- ![螢幕擷取畫面 2024-09-22 121015](https://github.com/user-attachments/assets/b25c1c48-bbf8-4290-9ea4-e2cf3e731bc7)
+- ![螢幕擷取畫面 2024-09-22 120904](https://github.com/user-attachments/assets/bf63c3e9-3b3a-4c32-b26c-203797dfe93a)
 
 - cd： 切換目錄
 ```
