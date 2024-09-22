@@ -79,6 +79,7 @@ touch data.txt
 ```
 echo "文檔內容" > data.txt 
 ```
+- ![螢幕擷取畫面 2024-09-22 152822](https://github.com/user-attachments/assets/2830f8d6-6f3d-4c39-8e1d-b579ef7dbeaf)
 - **印出txt檔內容**
 ```
 cat data.txt
