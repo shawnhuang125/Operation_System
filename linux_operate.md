@@ -54,6 +54,8 @@ mkdir xxxxx
 ```
 cd /home/[user]/Documents/
 ```
+- ![螢幕擷取畫面 2024-09-22 153317](https://github.com/user-attachments/assets/b63afd2b-a0b5-4b26-a0c8-b1974884ed46)
+
 - **新增目錄**
 ```
 mkdir document
