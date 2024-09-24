@@ -4,7 +4,24 @@
 - [積點系統](https://irs.ctlin.tw/dashboard)
 
 ## AGENDA
+### 查看基本資訊
+- 查看年月日
+```
+date +%m/%d/%y
+```
+- ![image](https://github.com/user-attachments/assets/da36e0c4-a5a9-4abf-b67e-34182e7adbbb)
+
 ### 文件操作：
+- ll:顯示檔案資訊
+- ll and ls -l 這兩個都是一樣的功能
+```
+ll
+```
+```
+ls -l
+```
+- ![image](https://github.com/user-attachments/assets/155e24bc-2741-47b7-883f-4ba4e9a37ed4)
+
 - ls： 上市文件和目錄
 ```
 ls -a
@@ -147,7 +164,17 @@ sudo rm data.txt
   ```
   - ![螢幕擷取畫面 2024-09-18 164037](https://github.com/user-attachments/assets/54a3928f-83f8-4455-9d11-f30f124a3bf8)
 ### 系統管理：
-- ps：查看運行中的進程
+- ps：查看運行中的服務
+```
+ps aux
+```
+- ![image](https://github.com/user-attachments/assets/425aa7d5-a9a5-4145-a357-59aa293ae48d)
+- pstree:可以用來看到目前的樹狀系統服務
+```
+pstree
+```
+- ![image](https://github.com/user-attachments/assets/7d2371c6-024c-4c47-8360-3a15a8398879)
+
 - top或htop：即時監控系統資源
 - kill： 終止進程
 - df：查看磁碟空間使用情況
@@ -349,6 +376,28 @@ sudo systemctl isolate graphical.target
   提高伺服器的安全性,防止遭受惡意攻擊
   在企業中不同的部門會有不同的存取權限,可以使用此功能管理使用者訪問權限
   使用SSH連線伺服器時可以管理不同的使用者身分,有異常的可以直接刪除
+- **who:用來看當前的使用者**
+```
+whoami
+```
+- ![image](https://github.com/user-attachments/assets/8233ee6a-6491-4e38-a545-834531bb2274)
+
+- **用來看當前的使用者屬於哪一個群組**
+```
+groups
+```
+- ![image](https://github.com/user-attachments/assets/a38cbb0d-cc8e-40e6-953b-4878ec2495ec)
+- **id:可以用來看當前使用者的帳號資訊所屬群組,帳號id**
+```
+id
+```
+- ![image](https://github.com/user-attachments/assets/27c9b649-80e0-4ecc-aec5-5732ef025ad4)
+
+- **getent group sudo:用來看當前的管理員用戶**
+```
+getent group sudo
+```
+- ![image](https://github.com/user-attachments/assets/04180199-51c3-443c-9bc6-9027b250905c)
 
 - **useradd和userdel：新增或刪除用戶**
 ```
