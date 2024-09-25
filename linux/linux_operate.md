@@ -1,6 +1,6 @@
 # Linux 基礎操作
 ## 介紹
-> LINUX和windows一都是一種操作系統。
+> Linux和Windows一樣都是一種電腦的操作系統。
 
 > 優點:系統對硬體設備的要求較低,有較多種類的linux系統可供全球用戶免費下載,例如說Ubuntu linux,Kali linux,CentOS等。
 ## 學習指引
