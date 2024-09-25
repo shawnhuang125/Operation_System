@@ -9,4 +9,4 @@
 > 駭客通常會编寫作業系統的腳本來製作成某種病毒然後惡意散播。
 ## 目錄
 #### [Linux 基礎操作](https://github.com/shawnhuang125/Operation_System/blob/main/linux/linux_operate.md)（命令行、文件系統、權限管理）
-#### [Windows 基礎]()（命令提示符、PowerShell、權限管理）
+#### [Windows 基礎操作]()（命令提示符、PowerShell、權限管理）
