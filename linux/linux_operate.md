@@ -2,7 +2,7 @@
 ## 介紹
 > LINUX和windows一都是一種操作系統。
 > 優點:系統對硬體設備的要求較低,有較多種類的linux系統可供開源下載,例如說Ubuntu linux,Kali linux,CentOS等。
-## 目錄AGENDA
+## 學習指引
 #### [網路管理](https://github.com/shawnhuang125/Operation_System/blob/main/linux_network.md)
 #### [服務管理](https://github.com/shawnhuang125/Operation_System/blob/main/linux_service.md)
 #### [用戶管理](https://github.com/shawnhuang125/Operation_System/blob/main/linux_user.md)
