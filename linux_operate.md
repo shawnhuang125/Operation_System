@@ -1,7 +1,4 @@
 # Linux 基礎操作
-## link
-- [外部資源](https://linux.vbird.org/linux_basic_train/rockylinux9/unit01.php)
-- [積點系統](https://irs.ctlin.tw/dashboard)
 
 ## 目錄
 - 網路管理[實作連結](https://github.com/shawnhuang125/Operation_System/blob/main/linux_network.md)
