@@ -1,4 +1,4 @@
-### 網路管理：
+# 網路管理：
 - ifconfig或ip addr：查看網路介面資訊
   ```
   ifconfig
