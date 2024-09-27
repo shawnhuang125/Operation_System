@@ -1,11 +1,5 @@
 # Winodws基本指令
 ## 用戶管理
-```
-whoami
-```
-- ![image](https://github.com/user-attachments/assets/8083ab0a-4403-48ac-bede-0ef46db85537)
-```
-```
 ### 進入 Windows 安全模式：
 
 - 在登入畫面，按住 Shift 鍵並點擊右下角的「重新啟動」。
@@ -31,4 +25,14 @@ copy C:\Windows\System32\cmd.exe C:\Windows\System32\utilman.exe
 ```
 powershell
 ```
-- 現在您已經在登入畫面上成功啟動了 PowerShell，您可以繼續進行密碼重設或其他操作。
+### 查看用戶名稱
+```
+whoami
+```
+- ![image](https://github.com/user-attachments/assets/8083ab0a-4403-48ac-bede-0ef46db85537)
+### 修改用戶密碼
+```
+net user user ""
+```
+- ![image](https://github.com/user-attachments/assets/7971ed0c-24a2-40fb-b47d-9138ef5b34c1)
+
