@@ -5,7 +5,7 @@
 |-----|-----|
 |`/bin (Binaries)`||
 |`/boot`|根開機有關的檔案|
-|`/dev (Device Files)`||
+|`/dev (Device Files)`|每個裝置(硬碟,USB都會有檔案放在這裡)|
 |`/etc (Configuration Files)`|系統設定檔都讚這裡,應用程式設定檔也在這裡|
 |`/home`|管理員的起始點|
 |`/lib (Libraries)`||
