@@ -18,7 +18,7 @@
 |`/sbin (System Binaries)`||
 |`/srv (Service Data)`||
 |`/sys (System)`||
-|`/tmp (Temporary Files)`||
+|`/tmp (Temporary Files)`|暫存檔放置處,每次開關機後會自動刪除|
 |`/usr (User Binaries)`||
 |`/var (Variable Files)`|常常會更動的檔案,例如日誌檔|
 |`/lost+found`||
