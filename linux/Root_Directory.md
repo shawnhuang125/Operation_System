@@ -4,12 +4,12 @@
 |目錄名稱|主要用途|
 |-----|-----|
 |`/bin (Binaries)`||
-|`/boot`||
+|`/boot`|根開機有關的檔案|
 |`/dev (Device Files)`||
-|`/etc (Configuration Files)`||
-|`/home`||
+|`/etc (Configuration Files)`|系統設定檔都讚這裡,應用程式設定檔也在這裡|
+|`/home`|管理員的起始點|
 |`/lib (Libraries)`||
-|`/media`||
+|`/media`|插入的媒體裝置,例如USB,光碟....|
 |`/mnt (Mount)`||
 |`/opt (Optional)`||
 |`/proc (Process Information)`||
@@ -20,6 +20,6 @@
 |`/sys (System)`||
 |`/tmp (Temporary Files)`||
 |`/usr (User Binaries)`||
-|`/var (Variable Files)`||
+|`/var (Variable Files)`|常常會更動的檔案,例如日誌檔|
 |`/lost+found`||
 
