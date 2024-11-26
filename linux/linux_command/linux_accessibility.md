@@ -64,7 +64,10 @@
       - `7`=rw-(擁有者)
       - `4`=-w-(群組)
       - `4`=-w-(其他人)
-
+  - 特殊權限
+  - SUID:以檔案擁有者身份執行,可以使用`chmod u+s [目錄path]`,其權限值`-rwsr-xr-x`
+  - SGID:chmod g+s
+  - Sticky Bit:
 - chown：更改文件所有者
   - **賦予"client"操作權限**
   ```
