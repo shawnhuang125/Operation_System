@@ -11,6 +11,4 @@
 > 病毒就是熟悉作業系統核心後,針對系統重要文件進行竄改,修改或刪除導致電腦受損。
 ## 目錄
 #### [Linux 基礎操作](https://github.com/shawnhuang125/Operation_System/blob/main/linux/linux_operate.md)（命令行、文件系統、權限管理）
-#### [Linux 作業系統核心]()
 #### [Windows 基礎操作]()（命令提示符、PowerShell、權限管理）
-#### [windows 作業系統核心]()
